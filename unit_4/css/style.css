@@ -16,6 +16,7 @@ body{
 	background-color: #295e8f;
 	text-align: center;
 	font-family: 'Libre Baskerville';
+	color: #FFFFFF;
 }
 
 ul{
@@ -23,7 +24,7 @@ ul{
 	color: #295e8f;
 }
 a{
-	color: black;
+	color: #f07d02;
 }
 div{
 	background: white;
