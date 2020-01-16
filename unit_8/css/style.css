@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+header{
+
+	background-color: white;
+    padding: 1em;
+    width: 100%;
+}
+
+header img{
+
+	width: 80%;
+}
+
+
+nav{
+background-color: #f07d02;
+font-family: Oswald;
+}
+
+aside{
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 1em;
+}
+
+#toptwocolumn{
+background-color: #FFB7cf;
+border: 1px black solid;
+padding: 1em;
+
+}
+#topleft{
+background-color: #e582a2;
+border: 1px black solid;
+padding: .5em;
+float: left;
+width: 45%;
+}
+
+#topright{
+background-color: #e55b88;
+border: 1px black solid;
+padding: .5em;
+float: right;
+width: 45%;
+}
+
+#two_column{
+background-color: #FFB7cf;
+border: 1px black solid;
+padding: 1em;
+}
+
+#left{
+background-color: #e582a2;
+border: 1px black solid;
+padding: 1em;
+float: left;
+width: 30%;
+}
+
+#right{
+background-color: #e55b88;
+border: 1px black solid;
+padding: 1em;
+float: right;
+width: 62%;
+}
+
+.clearfix:after{
+ visibility: hidden;
+ display: block;
+ font-size: 0;
+ content: " ";
+ clear: both;
+ height: 0;
+}
+
+article{
+
+background-color: #E89C6C;
+border: 1px black solid;
+padding: 1em;
+}
+
+footer{
+
+	background-color: white;
+	border: 1px black solid;
+    padding: 2em;
+}
+
+div, section{
+
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 1em;
+}
+header h1{
+	color: #f07d02;
+}
+h1, h2, h3{
+	text-align: center;
+	font-family: 'Oswald';
+	color: #FFFFFF; 
+}
+
+#slogan{
+	font-style: italic;
+	text-align: center;
+	color: #f07d02;
+}
+
+body{
+	background-color: #e6dce1;
+	text-align: center;
+	font-family: 'Libre Baskerville';
+	color: #FFFFFF;
+}
+
+ul{
+	text-align: left;
+	color: #295e8f;
+}
+a{
+	color: #f07d02;
+	background-color: #e55b88;
+}
+nav a{
+
+	text-decoration: none;
+	color: orange;
+	display: inline-block;
+	float: left;
+	padding: 1em;
+	border: 1px orange solid;
+}
+nav a:hover{
+background-color: white;
+}
+
+
+ img {
+ 	width: 45%;
+
+
+
+ }
+.client img{
+
+	float: left;
+	width: 20%;
+	align-content: center;
+}
+
+footer img {
+
+	width: 10%;
+}
+
+@media only screen and (max-width: 904px) {
+
+	nav a {
+
+		float: none;
+		width: 100%;
+	}
+
+	#right, #left {
+
+		float: none;
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 750px) {
+
+	#topleft, #topright {
+
+		float: none;
+		width: 100%;
+	}
+
+    section {
+    	witdth: 100%;
+    }
+
+}
+
+
